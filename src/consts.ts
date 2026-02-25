@@ -31,11 +31,11 @@ interface Site {
 
 // Site configuration
 export const SITE: Site = {
-  website: "https://steipete.me/",
-  author: "Peter Steinberger",
-  profile: "https://steipete.me/about",
+  website: "https://yangwx.xyz/",
+  author: "YangWX",
+  profile: "https://yangwx.xyz/about",
   desc: "AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
-  title: "Peter Steinberger",
+  title: "YangWX",
   ogImage: "peter-avatar.jpg",
   lightAndDarkMode: true,
   postPerIndex: 10,
@@ -46,7 +46,7 @@ export const SITE: Site = {
   editPost: {
     enabled: true,
     text: "Edit on GitHub",
-    url: "https://github.com/steipete/steipete.me/edit/main/",
+    url: "https://github.com/yangwx/yangwx.xyz/edit/main/",
   },
   dynamicOgImage: true,
   lang: "en",
