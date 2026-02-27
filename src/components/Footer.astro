@@ -15,9 +15,11 @@ const { noMarginTop = false } = Astro.props;
     class="flex flex-col items-center justify-between py-6 sm:flex-row-reverse sm:py-4"
   >
     <Socials centered />
-    <div class="my-2 flex flex-col items-center whitespace-nowrap sm:flex-row">
-      <a href="https://github.com/steipete/steipete.me" target="_blank" rel="noopener noreferrer" class="hover:text-accent">
-        Steal this post ➜ CC BY 4.0 · Code MIT
+    <div class="my-2 flex flex-col items-center whitespace-nowrap text-sm sm:flex-row">
+      <span>&copy; {new Date().getFullYear()} YangWX</span>
+      <span class="hidden sm:inline mx-1">·</span>
+      <a href="https://github.com/alphadoiy/myBlog" target="_blank" rel="noopener noreferrer" class="hover:text-accent">
+        Source on GitHub
       </a>
     </div>
   </div>

@@ -35,8 +35,8 @@ export const SITE: Site = {
   author: "YangWX",
   profile: "https://yangwx.xyz/about",
   desc: "AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
-  title: "YangWX",
-  ogImage: "peter-avatar.jpg",
+  title: "alphadoiy's blog",
+  ogImage: "avatar.jpeg",
   lightAndDarkMode: true,
   postPerIndex: 10,
   postPerPage: 10,
@@ -46,7 +46,7 @@ export const SITE: Site = {
   editPost: {
     enabled: true,
     text: "Edit on GitHub",
-    url: "https://github.com/yangwx/yangwx.xyz/edit/main/",
+    url: "https://github.com/alphadoiy/myBlog/edit/main/",
   },
   dynamicOgImage: true,
   lang: "en",
@@ -71,20 +71,12 @@ export const NAV_LINKS: SocialLink[] = [
 // Social media links
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: "https://github.com/steipete",
+    href: "https://github.com/alphadoiy",
     label: "GitHub",
   },
   {
-    href: "https://twitter.com/steipete",
+    href: "https://twitter.com/3kxdUtEa4ZNfe5B",
     label: "Twitter",
-  },
-  {
-    href: "https://bsky.app/profile/steipete.me",
-    label: "BlueSky",
-  },
-  {
-    href: "/rss.xml",
-    label: "RSS",
   },
 ];
 
@@ -92,7 +84,5 @@ export const SOCIAL_LINKS: SocialLink[] = [
 export const ICON_MAP: Record<string, string> = {
   GitHub: "github",
   Twitter: "twitter",
-  BlueSky: "bsky",
-  RSS: "rss",
   Email: "mail",
 };
