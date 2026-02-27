@@ -99,11 +99,11 @@ export default defineConfig({
     react(),
     AstroPWA({
       registerType: "autoUpdate",
-      includeAssets: ["favicon.ico", "peter-avatar.jpg"],
+      includeAssets: ["favicon.ico", "avatar.jpeg"],
       manifest: {
-        name: "Peter Steinberger",
-        short_name: "steipete",
-        description: "AI-powered tools from Swift roots to web frontiers. Everything I build is open source.",
+        name: "YangWX",
+        short_name: "YangWX",
+        description: "武汉程序员萌新，热爱编程与开源，记录成长点滴。",
         theme_color: "#006cac",
         background_color: "#fdfdfd",
         display: "standalone",
@@ -117,13 +117,13 @@ export default defineConfig({
             type: "image/x-icon",
           },
           {
-            src: "peter-avatar.jpg",
+            src: "avatar.jpeg",
             sizes: "192x192",
             type: "image/jpeg",
             purpose: "any",
           },
           {
-            src: "peter-avatar.jpg",
+            src: "avatar.jpeg",
             sizes: "512x512",
             type: "image/jpeg",
             purpose: "any maskable",
