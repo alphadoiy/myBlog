@@ -133,9 +133,9 @@ const structuredData = {
     
     <!-- Domain-based markdown redirect -->
     <script is:inline>
-      // Check if we're on steipete.md domain
+      // Check if we're on yangwx.xyz domain
       const hostname = window.location.hostname;
-      if ((hostname === 'steipete.md' || hostname === 'www.steipete.md') && !window.location.pathname.endsWith('.md')) {
+      if ((hostname === 'yangwx.xyz' || hostname === 'www.yangwx.xyz') && !window.location.pathname.endsWith('.md')) {
         // Redirect to the .md version of the current page
         const mdPath = window.location.pathname === '/' ? '/index.md' : window.location.pathname + '.md';
         window.location.replace(mdPath + window.location.search + window.location.hash);
